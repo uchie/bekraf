@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Our Family</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script language="javaScript">
+        function testResults(form) {
+            var testvar = form.inputbox.value;
+            alert("you typed:" + testvar);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="menu" class="container">
+        <div class="row">
+            <div id="menu" class="col-sm-12">
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="header" class="container">
+        <div class="row">
+            <div id="banner" class="col-sm-12">
+                <img src="image/header.png">
+            </div>
+        </div>
+    </div>
+<!--isinya nih-->
+    <div id="content" class="container">
+        <div class="row">
+            <!--ini content utk menu tengah-->
+            <div id="content-utama" class="col-sm-8">
+                <h1>Contact</h1>
+<br><br>
+               telp 08812240132<br>
+               email : shinyflavia87@gmail.com
+               <br><br>
+             <form name="myform" action="" method="get">enter something in the box:
+               <br><br> Nama :
+                    <input type="text" name="inputbox" value="">
+                    <br> Email:
+                    <input type="text" name="inputbox" value="">
+                    <P>
+                        <input type="button" name="button" value="click" onclick="testResults(this.form)">
+                        <br>
+                </form>
+
+
+            </div>
+            <!--menu tengah selesai-->
+
+            <div id="content-link" class=col-sm-4>
+                <!--ini content utk link-->
+                <div id="isi-content-link">
+                    <h3> Artikel Saya </h3>
+                    <ul>
+                        <li><a href="artikel1.html">Tips Merawat Anak</a></li>
+                        <li><a href="artikel2.html">Tips Memasak Sarapan Praktis</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <!--content link selesai-->
+        </div>
+
+
+
+    </div>
+    <div id="footer" class="container">
+        <div class="row">
+            <div id="footer" class="col-sm-12">
+                &copy; Uchie
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
