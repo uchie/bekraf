@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include 'connection.php'; ?>
 <html lang="en">
 
 <head>
@@ -10,6 +11,8 @@
 </head>
 
 <body>
+
+    
     <div id="menu" class="container">
         <div class="row">
             <div id="menu" class="col-sm-12">
@@ -81,7 +84,25 @@
             </div>
         </div>
     </div>
+<?php
 
+$sql = "SELECT id, name,job,address FROM biodata";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "id: " . $row["id"].  "<br>";
+        echo "name: " . $row["name"].  "<br>";
+        echo "job: " . $row["job"]. "<br>";
+        echo "address: " . $row["address"]. "<br>";
+    }
+} else {
+    echo "0 results";
+}
+$conn->close();
+?> 
+?>
 </body>
 
 </html>
