@@ -70,4 +70,11 @@ body{
 }
 .button {
     color: #000;
+} 
+#content-utama {
+    text-align: center;
+   
+}
+#content-utama p{
+    text-align: justify;
 }

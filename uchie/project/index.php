@@ -37,6 +37,7 @@
             <!--ini content utk menu tengah-->
             <div id="content-utama" class="col-sm-8">
                 <h1>Perkenalan</h1>
+                <img src="image/uci.jpg" width="150px"><br><br>
                 <p>
                     Menjadi single mom dengan 5 orang anak itu susah-susah gampang tapi menyenangkan,kl di bayangin pasti ribet,rusuh,capek,,ga usah di bayangin deh kl gt hehe,,atau mau rasain skalian? eh jangan ...punya 5 anak dengan beda usia yg deket itu ga gampang lho,d jamin rumah pasti berisik dan berantakan,tp beneran seru,,ya kl d seru2in sih,,hehe,,mau kenal ama anak2 ku??
                 </p>
@@ -54,7 +55,8 @@
                 </p>
                 <p>
                     Anak k 5 namanya flavia Azalea,panggilannya Cia,cia paling mungil d rmh,paling centil,paling cerewet dan paling sgalanya,cia kls 1 SD,hobi nya ngaca,hehe..
-                </p>
+                </p><br><br><br>
+                <img src="image/fam1.png" width="600px">
 
 
             </div>
@@ -65,8 +67,10 @@
                 <div id="isi-content-link">
                     <h3> Artikel Saya </h3>
                     <ul>
-                        <li><a href="artikel1.html">Tips Merawat Anak</a></li>
-                        <li><a href="">Tips Memasak Sarapan Praktis</a></li>
+                        <li><a href="artikel1.html">Tips Merawat Anak</a><br><br>
+                        <img src="image/fam12.jpg"></li><br><br>
+                        <li><a href="">Tips Memasak Sarapan Praktis</a><br><br>
+                        <img src="image/fam13.jpg"></li>
                     </ul>
                   
                 </div>
